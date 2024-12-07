@@ -1,0 +1,1165 @@
+{
+  "recipes": {
+    "שקשוקת ירקות": {
+      "id": "veggie-shakshuka-1",
+      "name": {
+        "he": "שקשוקת ירקות",
+        "en": "Vegetable Shakshuka"
+      },
+      "difficulty": "קל",
+      "prepTime": 25,
+      "servings": 4,
+      "category": "breakfast",
+      "tags": ["ארוחת_בוקר", "צמחוני", "בריא"],
+      "ingredients": [
+        {
+          "item": "קישואים",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🥒"
+        },
+        {
+          "item": "עגבניות",
+          "amount": 4,
+          "unit": "יחידות",
+          "emoji": "🍅"
+        },
+        {
+          "item": "פלפלים צבעוניים",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🫑"
+        },
+        {
+          "item": "בצל",
+          "amount": 1,
+          "unit": "גדול",
+          "emoji": "🧅"
+        },
+        {
+          "item": "טופו רך",
+          "amount": 300,
+          "unit": "גרם",
+          "emoji": "🧊"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מטגנים את הבצל והירקות במחבת",
+          "tip": "חותכים את הירקות לקוביות בגודל דומה"
+        },
+        {
+          "step": 2,
+          "text": "מוסיפים את הטופו המפורר בעדינות",
+          "tip": "הטופו מחליף את הביצים במתכון המסורתי"
+        },
+        {
+          "step": 3,
+          "text": "מתבלים ומבשלים עוד 5 דקות",
+          "tip": "אפשר להוסיף כורכום לצבע צהוב"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 220,
+        "protein": 12,
+        "carbs": 15,
+        "fat": 14
+      },
+      "image": "🥘"
+    },
+
+    "קדירת קטניות": {
+      "id": "legume-stew-1",
+      "name": {
+        "he": "קדירת קטניות",
+        "en": "Legume Stew"
+      },
+      "difficulty": "בינוני",
+      "prepTime": 45,
+      "servings": 6,
+      "category": "lunch",
+      "tags": ["צהריים", "צמחוני", "מזין"],
+      "ingredients": [
+        {
+          "item": "עדשים שחורות",
+          "amount": 200,
+          "unit": "גרם",
+          "emoji": "🫘"
+        },
+        {
+          "item": "חומוס מושרה",
+          "amount": 200,
+          "unit": "גרם",
+          "emoji": "🫘"
+        },
+        {
+          "item": "בטטה",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🍠"
+        },
+        {
+          "item": "גזר",
+          "amount": 3,
+          "unit": "יחידות",
+          "emoji": "🥕"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מבשלים את הקטניות עד לריכוך",
+          "tip": "מומלץ להשרות לילה לפני"
+        },
+        {
+          "step": 2,
+          "text": "מוסיפים את הירקות החתוכים",
+          "tip": "חיתוך הירקות בגודל אחיד"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 380,
+        "protein": 18,
+        "carbs": 65,
+        "fat": 4
+      },
+      "image": "🥘"
+    },
+
+    "פסטה ברוטב פסטו": {
+      "id": "pesto-pasta-1",
+      "name": {
+        "he": "פסטה ברוטב פסטו",
+        "en": "Pesto Pasta"
+      },
+      "difficulty": "קל",
+      "prepTime": 20,
+      "servings": 4,
+      "category": "dinner",
+      "tags": ["ערב", "פסטה", "צמחוני"],
+      "ingredients": [
+        {
+          "item": "פסטה",
+          "amount": 500,
+          "unit": "גרם",
+          "emoji": "🍝"
+        },
+        {
+          "item": "עלי בזיליקום",
+          "amount": 2,
+          "unit": "צרורות",
+          "emoji": "🌿"
+        },
+        {
+          "item": "אגוזי צנובר",
+          "amount": 100,
+          "unit": "גרם",
+          "emoji": "🥜"
+        },
+        {
+          "item": "שמן זית",
+          "amount": 100,
+          "unit": "מ\"ל",
+          "emoji": "🫒"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מכינים את הפסטו בבלנדר",
+          "tip": "לטחון בפולסים קצרים"
+        },
+        {
+          "step": 2,
+          "text": "מבשלים את הפסטה",
+          "tip": "שומרים מעט ממי הבישול"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 450,
+        "protein": 12,
+        "carbs": 65,
+        "fat": 18
+      },
+      "image": "🍝"
+    },
+
+    "סלט קינואה": {
+      "id": "quinoa-salad-1",
+      "name": {
+        "he": "סלט קינואה",
+        "en": "Quinoa Salad"
+      },
+      "difficulty": "קל",
+      "prepTime": 25,
+      "servings": 4,
+      "category": "lunch",
+      "tags": ["צהריים", "סלט", "בריא"],
+      "ingredients": [
+        {
+          "item": "קינואה",
+          "amount": 200,
+          "unit": "גרם",
+          "emoji": "🌾"
+        },
+        {
+          "item": "עגבניות שרי",
+          "amount": 200,
+          "unit": "גרם",
+          "emoji": "🍅"
+        },
+        {
+          "item": "מלפפונים",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🥒"
+        },
+        {
+          "item": "חמוציות",
+          "amount": 50,
+          "unit": "גרם",
+          "emoji": "🫐"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מבשלים את הקינואה",
+          "tip": "שוטפים היטב לפני הבישול"
+        },
+        {
+          "step": 2,
+          "text": "מערבבים עם הירקות החתוכים",
+          "tip": "מגישים קר או בטמפרטורת החדר"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 280,
+        "protein": 8,
+        "carbs": 45,
+        "fat": 6
+      },
+      "image": "🥗"
+    },
+
+    "המבורגר פטריות": {
+      "id": "mushroom-burger-1",
+      "name": {
+        "he": "המבורגר פטריות",
+        "en": "Mushroom Burger"
+      },
+      "difficulty": "בינוני",
+      "prepTime": 30,
+      "servings": 4,
+      "category": "dinner",
+      "tags": ["ערב", "המבורגר", "צמחוני"],
+      "ingredients": [
+        {
+          "item": "פטריות פורטובלו",
+          "amount": 4,
+          "unit": "יחידות",
+          "emoji": "🍄"
+        },
+        {
+          "item": "לחמניות המבורגר",
+          "amount": 4,
+          "unit": "יחידות",
+          "emoji": "🍞"
+        },
+        {
+          "item": "חסה",
+          "amount": 1,
+          "unit": "ראש",
+          "emoji": "🥬"
+        },
+        {
+          "item": "עגבנייה",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🍅"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מתבלים וצולים את הפטריות",
+          "tip": "מברישים בשמן זית לפני הצלייה"
+        },
+        {
+          "step": 2,
+          "text": "מרכיבים את ההמבורגר",
+          "tip": "אפשר להוסיף רטבים לפי הטעם"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 320,
+        "protein": 10,
+        "carbs": 45,
+        "fat": 12
+      },
+      "image": "🍔"
+    },
+
+    "קארי ירקות": {
+      "id": "vegetable-curry-1",
+      "name": {
+        "he": "קארי ירקות",
+        "en": "Vegetable Curry"
+      },
+      "difficulty": "בינוני",
+      "prepTime": 40,
+      "servings": 6,
+      "category": "dinner",
+      "tags": ["ערב", "הודי", "צמחוני"],
+      "ingredients": [
+        {
+          "item": "כרובית",
+          "amount": 1,
+          "unit": "ראש",
+          "emoji": "🥦"
+        },
+        {
+          "item": "תפוחי אדמה",
+          "amount": 3,
+          "unit": "יחידות",
+          "emoji": "🥔"
+        },
+        {
+          "item": "גזר",
+          "amount": 2,
+          "unit": "יידות",
+          "emoji": "🥕"
+        },
+        {
+          "item": "חלב קוקוס",
+          "amount": 400,
+          "unit": "מ\"ל",
+          "emoji": "🥥"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מטגנים תבלינים בשמן",
+          "tip": "משתמשים בתערובת קארי הודית"
+        },
+        {
+          "step": 2,
+          "text": "מוסיפים ירקות וחלב קוקוס",
+          "tip": "מבשלים עד שהירקות רכים"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 280,
+        "protein": 6,
+        "carbs": 35,
+        "fat": 14
+      },
+      "image": "🥘"
+    },
+
+    "לביבות תירס": {
+      "id": "corn-fritters-1",
+      "name": {
+        "he": "לביבות תירס",
+        "en": "Corn Fritters"
+      },
+      "difficulty": "קל",
+      "prepTime": 25,
+      "servings": 4,
+      "category": "breakfast",
+      "tags": ["ארוחת_בוקר", "צמחוני", "מטוגן"],
+      "ingredients": [
+        {
+          "item": "תירס",
+          "amount": 3,
+          "unit": "קלחים",
+          "emoji": "🌽"
+        },
+        {
+          "item": "קמח",
+          "amount": 200,
+          "unit": "גרם",
+          "emoji": "🌾"
+        },
+        {
+          "item": "בצל ירוק",
+          "amount": 3,
+          "unit": "יחידות",
+          "emoji": "🧅"
+        },
+        {
+          "item": "חלב סויה",
+          "amount": 200,
+          "unit": "מ\"ל",
+          "emoji": "🥛"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מערבבים את כל המרכיבים",
+          "tip": "העיסה צריכה להיות סמיכה"
+        },
+        {
+          "step": 2,
+          "text": "מטגנים בשמן חם",
+          "tip": "מטגנים עד להזהבה משני הצדדים"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 220,
+        "protein": 6,
+        "carbs": 42,
+        "fat": 4
+      },
+      "image": "🧇"
+    },
+
+    "סלט פירות טרופי": {
+      "id": "tropical-fruit-salad-1",
+      "name": {
+        "he": "סלט פירות טרופי",
+        "en": "Tropical Fruit Salad"
+      },
+      "difficulty": "קל",
+      "prepTime": 15,
+      "servings": 4,
+      "category": "night",
+      "tags": ["לילה", "קינוח", "בריא"],
+      "ingredients": [
+        {
+          "item": "מנגו",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🥭"
+        },
+        {
+          "item": "אננס",
+          "amount": 1,
+          "unit": "יחידה",
+          "emoji": "🍍"
+        },
+        {
+          "item": "קיווי",
+          "amount": 3,
+          "unit": "יחידות",
+          "emoji": "🥝"
+        },
+        {
+          "item": "רימון",
+          "amount": 1,
+          "unit": "יחידה",
+          "emoji": "🫐"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "חותכים את כל הפירות לקוביות",
+          "tip": "משתמשים בפירות בשלים"
+        },
+        {
+          "step": 2,
+          "text": "מערבבים בעדינות",
+          "tip": "אפשר להוסיף מיץ לימון לשמירה"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 120,
+        "protein": 2,
+        "carbs": 28,
+        "fat": 0
+      },
+      "image": "🍎"
+    },
+
+    "חטיף אנרגיה": {
+      "id": "energy-balls-1",
+      "name": {
+        "he": "חטיף אנרגיה",
+        "en": "Energy Balls"
+      },
+      "difficulty": "קל",
+      "prepTime": 20,
+      "servings": 15,
+      "category": "dessert",
+      "tags": ["חטיף", "טבעוני", "בריא"],
+      "ingredients": [
+        {
+          "item": "תמרים",
+          "amount": 200,
+          "unit": "גרם",
+          "emoji": "🫐"
+        },
+        {
+          "item": "אגוזי מלך",
+          "amount": 100,
+          "unit": "גרם",
+          "emoji": "🥜"
+        },
+        {
+          "item": "שקדים",
+          "amount": 100,
+          "unit": "גרם",
+          "emoji": "🥜"
+        },
+        {
+          "item": "קקאו",
+          "amount": 2,
+          "unit": "כפות",
+          "emoji": "🍫"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "טוחנים הכל במעבד מזון",
+          "tip": "התמרים צריכים להיות רכים"
+        },
+        {
+          "step": 2,
+          "text": "מגלגלים לכדורים קטנים",
+          "tip": "אפשר לגלגל בקוקוס או קקאו"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 150,
+        "protein": 3,
+        "carbs": 20,
+        "fat": 8
+      },
+      "image": "🍪"
+    },
+
+    "קציצות קטניות": {
+      "id": "legume-patties-1",
+      "name": {
+        "he": "קציצות קטניות",
+        "en": "Legume Patties"
+      },
+      "difficulty": "בינוני",
+      "prepTime": 40,
+      "servings": 6,
+      "category": "lunch",
+      "tags": ["צהריים", "קטניות", "צמחוני", "עשיר_בחלבון"],
+      "ingredients": [
+        {
+          "item": "עדשים שחורות",
+          "amount": 200,
+          "unit": "גרם",
+          "emoji": "🫘"
+        },
+        {
+          "item": "בצל",
+          "amount": 1,
+          "unit": "גדול",
+          "emoji": "🧅"
+        },
+        {
+          "item": "פטרוזיליה",
+          "amount": 1,
+          "unit": "צרור",
+          "emoji": "🌿"
+        },
+        {
+          "item": "פירורי לחם",
+          "amount": 100,
+          "unit": "גרם",
+          "emoji": "🍞"
+        },
+        {
+          "item": "תבלינים",
+          "amount": 1,
+          "unit": "לטעם",
+          "emoji": "🧂"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מבשלים את העדשים עד לריכוך",
+          "tip": "כ-25 דקות בישול או עד שהעדשים מתרככות"
+        },
+        {
+          "step": 2,
+          "text": "קוצצים בצל ופטרוזיליה",
+          "tip": "קיצוץ דק יעזור לקציצות להתגבש"
+        },
+        {
+          "step": 3,
+          "text": "מערבבים את כל המרכיבים",
+          "tip": "לשים היטב עד שנוצרת תערובת אחידה"
+        },
+        {
+          "step": 4,
+          "text": "יוצרים קציצות ומטגנים",
+          "tip": "אפשר גם לאפות בתנור ב-180 מעלות כ-20 דקות"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 180,
+        "protein": 12,
+        "carbs": 28,
+        "fat": 4
+      },
+      "image": "🫘"
+    },
+
+    "חציל ממולא קינואה": {
+      "id": "quinoa-stuffed-eggplant-1",
+      "name": {
+        "he": "חציל ממולא קינואה",
+        "en": "Quinoa Stuffed Eggplant"
+      },
+      "difficulty": "בינוני",
+      "prepTime": 45,
+      "servings": 4,
+      "category": "lunch",
+      "tags": ["צהריים", "ירקות", "צמחוני", "בריא"],
+      "ingredients": [
+        {
+          "item": "חצילים",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🍆"
+        },
+        {
+          "item": "קינואה",
+          "amount": 200,
+          "unit": "גרם",
+          "emoji": "🌾"
+        },
+        {
+          "item": "עגבניות",
+          "amount": 3,
+          "unit": "יחידות",
+          "emoji": "🍅"
+        },
+        {
+          "item": "טחינה גולמית",
+          "amount": 4,
+          "unit": "כפות",
+          "emoji": "🥄"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "חוצים את החצילים ואופים בתנור",
+          "tip": "לחרוץ את הבשר בצורת רשת להאצת האפייה"
+        },
+        {
+          "step": 2,
+          "text": "מבשלים את הקינואה",
+          "tip": "יחס של 1:2 קינואה למים"
+        },
+        {
+          "step": 3,
+          "text": "מכינים מלית מקינואה וירקות",
+          "tip": "אפשר להוסיף עשבי תיבול לטעם"
+        },
+        {
+          "step": 4,
+          "text": "ממלאים את החצילים ומחזירים לתנור",
+          "tip": "מזלפים טחינה לפני ההגשה"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 280,
+        "protein": 10,
+        "carbs": 42,
+        "fat": 8
+      },
+      "image": "🍆"
+    },
+
+    "ממרח עדשים": {
+      "id": "lentil-spread-1",
+      "name": {
+        "he": "ממרח עדשים",
+        "en": "Lentil Spread"
+      },
+      "difficulty": "קל",
+      "prepTime": 30,
+      "servings": 6,
+      "category": "dinner",
+      "tags": ["ערב", "ממרחים", "צמחוני", "עשיר_בחלבון"],
+      "ingredients": [
+        {
+          "item": "עדשים כתמות",
+          "amount": 200,
+          "unit": "גרם",
+          "emoji": "🫘"
+        },
+        {
+          "item": "שום",
+          "amount": 3,
+          "unit": "שיניים",
+          "emoji": "🧄"
+        },
+        {
+          "item": "לימון",
+          "amount": 1,
+          "unit": "יחידה",
+          "emoji": "🍋"
+        },
+        {
+          "item": "כמון",
+          "amount": 1,
+          "unit": "כפית",
+          "emoji": "🧂"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מבשלים את העדשים עד לריכוך מלא",
+          "tip": "כ-20 דקות בישול"
+        },
+        {
+          "step": 2,
+          "text": "טוחנים את כל המרכיבים",
+          "tip": "אפשר להשתמש בבלנדר או מעבד מזון"
+        },
+        {
+          "step": 3,
+          "text": "מתבלים לפי הטעם",
+          "tip": "אפשר להוסיף שמן זית ופטרוזיליה"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 120,
+        "protein": 8,
+        "carbs": 20,
+        "fat": 2
+      },
+      "image": "🫘"
+    },
+
+    "תפוחי אדמה אפויים": {
+      "id": "baked-potatoes-1",
+      "name": {
+        "he": "תפוחי אדמה אפויים",
+        "en": "Baked Potatoes"
+      },
+      "difficulty": "קל",
+      "prepTime": 45,
+      "servings": 4,
+      "category": "lunch",
+      "tags": ["צהריים", "תוספות", "צמחוני", "אפוי"],
+      "ingredients": [
+        {
+          "item": "תפוחי אדמה",
+          "amount": 6,
+          "unit": "יחידות",
+          "emoji": "🥔"
+        },
+        {
+          "item": "שמן זית",
+          "amount": 3,
+          "unit": "כפות",
+          "emoji": "🫒"
+        },
+        {
+          "item": "רוזמרין",
+          "amount": 2,
+          "unit": "ענפים",
+          "emoji": "🌿"
+        },
+        {
+          "item": "שום",
+          "amount": 4,
+          "unit": "שיניים",
+          "emoji": "🧄"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "חותכים את תפוחי האדמה לקוביות",
+          "tip": "גודל אחיד לבישול שווה"
+        },
+        {
+          "step": 2,
+          "text": "מתבלים בשמן זית ותלנים",
+          "tip": "לערבב היטב את הנוזלים"
+        },
+        {
+          "step": 3,
+          "text": "אופים בתנור על 200 מעלות",
+          "tip": "כ-35 דקות או עד להזהבה"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 180,
+        "protein": 4,
+        "carbs": 35,
+        "fat": 5
+      },
+      "image": "🥔"
+    },
+
+    "אורז עם ירקות": {
+      "id": "vegetable-rice-1",
+      "name": {
+        "he": "אורז עם ירקות",
+        "en": "Vegetable Rice"
+      },
+      "difficulty": "קל",
+      "prepTime": 30,
+      "servings": 4,
+      "category": "lunch",
+      "tags": ["צהריים", "תוספות", "צמחוני", "ירקות"],
+      "ingredients": [
+        {
+          "item": "אורז בסמטי",
+          "amount": 2,
+          "unit": "כוסות",
+          "emoji": "🍚"
+        },
+        {
+          "item": "גזר",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🥕"
+        },
+        {
+          "item": "פלפלים",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🫑"
+        },
+        {
+          "item": "פונה",
+          "amount": 1,
+          "unit": "כוס",
+          "emoji": "🫘"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מבשלים את האורז",
+          "tip": "יחס של 1:2 אורז למים"
+        },
+        {
+          "step": 2,
+          "text": "מטגנים את הירקות",
+          "tip": "לחתוך לקוביות קטנות"
+        },
+        {
+          "step": 3,
+          "text": "מערבבים הכל יחד",
+          "tip": "להוסיף תבלינים לפי הטעם"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 220,
+        "protein": 5,
+        "carbs": 45,
+        "fat": 2
+      },
+      "image": "🍚"
+    },
+
+    "קוגל תפוחי אדמה": {
+      "id": "potato-kugel-1",
+      "name": {
+        "he": "קוגל תפוחי אדמה",
+        "en": "Potato Kugel"
+      },
+      "difficulty": "בינוני",
+      "prepTime": 60,
+      "servings": 8,
+      "category": "lunch",
+      "tags": ["שבת", "תוספות", "צמחוני", "אפוי"],
+      "ingredients": [
+        {
+          "item": "תפוחי אדמה",
+          "amount": 8,
+          "unit": "יחידות",
+          "emoji": "🥔"
+        },
+        {
+          "item": "בצל",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🧅"
+        },
+        {
+          "item": "קמח תפוחי אדמה",
+          "amount": 3,
+          "unit": "כפות",
+          "emoji": "🌾"
+        },
+        {
+          "item": "שמן",
+          "amount": 0.5,
+          "unit": "כוס",
+          "emoji": "🫒"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מגרדים תפוחי אדמה ובצל",
+          "tip": "לסחוט היטב את הנוזלים"
+        },
+        {
+          "step": 2,
+          "text": "מערבבים עם שאר המרכיבים",
+          "tip": "להוסיף מלח ופלפל לפי הטעם"
+        },
+        {
+          "step": 3,
+          "text": "אופים בתבנית משומנת",
+          "tip": "180 מעלות למשך כשעה"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 250,
+        "protein": 4,
+        "carbs": 40,
+        "fat": 8
+      },
+      "image": "🥔"
+    },
+
+    "לחמניות מקמח מלא": {
+      "id": "whole-wheat-rolls-1",
+      "name": {
+        "he": "לחמניות מקמח מלא",
+        "en": "Whole Wheat Rolls"
+      },
+      "difficulty": "בינוני",
+      "prepTime": 120,
+      "servings": 12,
+      "category": "breakfast",
+      "tags": ["ארוחת_בוקר", "לחם", "צמחוני", "בריא"],
+      "ingredients": [
+        {
+          "item": "קמח מלא",
+          "amount": 500,
+          "unit": "גרם",
+          "emoji": "🌾"
+        },
+        {
+          "item": "שמרים",
+          "amount": 2,
+          "unit": "כפות",
+          "emoji": "🧂"
+        },
+        {
+          "item": "מים פושרים",
+          "amount": 300,
+          "unit": "מ\"ל",
+          "emoji": "💧"
+        },
+        {
+          "item": "שמן זית",
+          "amount": 3,
+          "unit": "כפות",
+          "emoji": "🫒"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "מערבבים שמרים עם מים חמימים",
+          "tip": "להמתין 10 דקות עד שמבעבע"
+        },
+        {
+          "step": 2,
+          "text": "לשים את הבצק",
+          "tip": "כ-10 דקות עד שהבצק גמיש"
+        },
+        {
+          "step": 3,
+          "text": "מתפיחים שעה",
+          "tip": "לכסות במגבת לחה"
+        },
+        {
+          "step": 4,
+          "text": "מחלקים ויוצרים לחמניות",
+          "tip": "להתפיח שוב 30 דקות ולאפות ב-180 מעלות"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 120,
+        "protein": 4,
+        "carbs": 22,
+        "fat": 3
+      },
+      "image": "🥖"
+    },
+
+    "סלט ישראלי": {
+      "id": "israeli-salad-1",
+      "name": {
+        "he": "סלט ישראלי",
+        "en": "Israeli Salad"
+      },
+      "difficulty": "קל",
+      "prepTime": 15,
+      "servings": 6,
+      "category": "lunch",
+      "tags": ["סלט", "צמחוני", "בריא", "ישראלי"],
+      "ingredients": [
+        {
+          "item": "עגבניות",
+          "amount": 4,
+          "unit": "יחידות",
+          "emoji": "🍅"
+        },
+        {
+          "item": "מלפפונים",
+          "amount": 4,
+          "unit": "יחידות",
+          "emoji": "🥒"
+        },
+        {
+          "item": "בצל סגול",
+          "amount": 1,
+          "unit": "יחידה",
+          "emoji": "🧅"
+        },
+        {
+          "item": "פטרוזיליה",
+          "amount": 1,
+          "unit": "צרור",
+          "emoji": "🌿"
+        },
+        {
+          "item": "שמן זית",
+          "amount": 3,
+          "unit": "כפות",
+          "emoji": "🫒"
+        },
+        {
+          "item": "לימון",
+          "amount": 1,
+          "unit": "יחידה",
+          "emoji": "🍋"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "חותכים את הירקות לקוביות קטנות",
+          "tip": "חיתוך אחיד לקוביות של 1 ס\"מ"
+        },
+        {
+          "step": 2,
+          "text": "קוצצים פטרוזיליה דק",
+          "tip": "להשתמש בעלים בלבד, ללא גבעולים"
+        },
+        {
+          "step": 3,
+          "text": "מתבלים בשמן זית, מיץ לימון, מלח ופלפל",
+          "tip": "לערבב בעדינות לשמירה על צורת הירקות"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 85,
+        "protein": 2,
+        "carbs": 10,
+        "fat": 5
+      },
+      "image": "🥗"
+    },
+
+    "סלט ישראלי גדול": {
+      "id": "large-israeli-salad-1",
+      "name": {
+        "he": "סלט ישראלי גדול",
+        "en": "Large Israeli Salad"
+      },
+      "difficulty": "קל",
+      "prepTime": 15,
+      "servings": 8,
+      "category": "lunch",
+      "tags": ["סלט", "צמחוני", "בריא", "ישראלי"],
+      "ingredients": [
+        {
+          "item": "עגבניות",
+          "amount": 6,
+          "unit": "יחידות",
+          "emoji": "🍅"
+        },
+        {
+          "item": "מלפפונים",
+          "amount": 6,
+          "unit": "יחידות",
+          "emoji": "🥒"
+        },
+        {
+          "item": "בצל סגול",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🧅"
+        },
+        {
+          "item": "פלפל צהוב",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🫑"
+        },
+        {
+          "item": "פטרוזיליה",
+          "amount": 1,
+          "unit": "צרור",
+          "emoji": "🌿"
+        },
+        {
+          "item": "נענע",
+          "amount": 0.5,
+          "unit": "צרור",
+          "emoji": "🌿"
+        },
+        {
+          "item": "שמן זית",
+          "amount": 4,
+          "unit": "כפות",
+          "emoji": "🫒"
+        },
+        {
+          "item": "מיץ לימון",
+          "amount": 2,
+          "unit": "יחידות",
+          "emoji": "🍋"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "חותכים את כל הירקות לקוביות קטנות ואחידות",
+          "tip": "גודל קוביות של כ-1 ס\"מ"
+        },
+        {
+          "step": 2,
+          "text": "קוצצים את העשבים דק דק",
+          "tip": "להשתמש בסכין חדה לקיצוץ נקי"
+        },
+        {
+          "step": 3,
+          "text": "מערבבים את כל הירקות והעשבים בקערה גדולה",
+          "tip": "לערבב בעדינות כדי לא למעוך את הירקות"
+        },
+        {
+          "step": 4,
+          "text": "מתבלים בשמן זית, מיץ לימון, מלח ופלפל שחור",
+          "tip": "לטעום ולהתאים תיבול לפי הטעם"
+        }
+      ],
+      "nutritionFacts": {
+        "calories": 95,
+        "protein": 2,
+        "carbs": 12,
+        "fat": 5
+      },
+      "image": "🥗"
+    }
+  }
+}

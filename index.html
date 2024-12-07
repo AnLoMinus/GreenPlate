@@ -1,0 +1,588 @@
+<link rel="stylesheet" href="styles.css">
+
+<!-- Add this at the top of the body -->
+<nav class="recipe-nav">
+    <div class="nav-container">
+        <h1>🌱 טבעוני וטעים</h1>
+    </div>
+    <div class="recipes-intro">
+        <h4>בואו נבשל ביחד מהטבע! 🥬</h4>
+        <h3>🌱 מתכונים צמחוניים טעימים</h3>
+        <p>מתכונים פשוטים, בריאים וטעימים שכל אחד יכול להכין</p>
+        <div class="recipe-benefits">
+            <span>🌿 100% צמחוני</span>
+            <span>⏱️ מהיר להכנה</span>
+            <span>💚 בריא ומזין</span>
+            <span>👨‍👩‍👧‍👦 מתאים לכל המשפחה</span>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- מתכונים טעימים -->
+<div class="recipes-section">
+    <div class="recipes-header">
+        <p class="site-description">מאגר מתכונים צמחוניים מהטבע לצלחת שלך</p>
+        <div class="recipe-categories">
+            <button class="category-btn active" data-category="all">הכל</button>
+            <button class="category-btn" data-category="breakfast">ארוחת בוקר</button>
+            <button class="category-btn" data-category="lunch">צהריים</button>
+            <button class="category-btn" data-category="dinner">ערב</button>
+            <button class="category-btn" data-category="night">לילה</button>
+            <button class="category-btn" data-category="dessert">קינוחים</button>
+        </div>
+        <!-- הוספת אזור הסינון המורחב -->
+        <div class="filters-section">
+            <div class="search-bar">
+                <input type="text" placeholder="חיפוש מתכון..." id="recipe-search">
+                <button class="clear-search">×</button>
+            </div>
+
+            <div class="filters-container">
+                <div class="filter-group">
+                    <select id="difficulty-filter">
+                        <option value="">רמת קושי</option>
+                        <option value="קל">קל</option>
+                        <option value="בינוני">בינוני</option>
+                        <option value="מאתגר">מאתגר</option>
+                    </select>
+
+                    <select id="time-filter">
+                        <option value="">זמן הכנה</option>
+                        <option value="15">עד 15 דקות</option>
+                        <option value="30">עד 30 דקות</option>
+                        <option value="45">עד 45 דקות</option>
+                        <option value="60">עד שעה</option>
+                    </select>
+                </div>
+
+                <div class="categories-filter">
+                    <button class="filter-btn active" data-category="all">הכל</button>
+                    <button class="filter-btn" data-category="breakfast">ארוחת בוקר</button>
+                    <button class="filter-btn" data-category="lunch">צהריים</button>
+                    <button class="filter-btn" data-category="dinner">ערב</button>
+                    <button class="filter-btn" data-category="dessert">קינוחים</button>
+                </div>
+            </div>
+
+            <div class="active-filters">
+                <!-- פילטרים פעילים יתווספו כאן דינמית -->
+            </div>
+        </div>
+    </div>
+    <div class="recipes-grid">
+        <!-- Recipe cards will be added here dynamically -->
+    </div>
+</div>
+
+
+<!-- תזונה בריאה -->
+<div class="nutrition-section">
+    <h3>תזונה בריאה 🍎</h3>
+    <div class="nutrition-intro">
+        <h4>מה כדאי לאכול? 🤔</h4>
+        <p>בואו נלמד על המזונות שעוזרים לנו לגדול ולהיות בריאים! 🌟</p>
+    </div>
+
+    <div class="food-categories-grid">
+        <div class="food-category" data-category="grains">
+            <h5>דגנים מלאים 🌾</h5>
+            <div class="food-items">
+                <span>לחם מחיטה מלאה 🍞</span>
+                <span>קינואה 🌾</span>
+                <span>כוסמת 🌾</span>
+                <span>שיבולת שועל 🥣</span>
+            </div>
+        </div>
+
+        <div class="food-category" data-category="proteins">
+            <h5>חלבונים צמחיים 🌱</h5>
+            <div class="food-items">
+                <span>טופו 🧊</span>
+                <span>עדשים 🫘</span>
+                <span>חומוס 🫘</span>
+                <span>טמפה 🌱</span>
+            </div>
+        </div>
+
+        <div class="food-category" data-category="vegetables">
+            <h5>ירקות 🥬</h5>
+            <div class="food-items">
+                <span>ברוקולי 🥦</span>
+                <span>תרד 🥬</span>
+                <span>בטטה 🍠</span>
+                <span>פלפלים 🫑</span>
+            </div>
+        </div>
+
+        <div class="food-category" data-category="fruits">
+            <h5>פירות 🍎</h5>
+            <div class="food-items">
+                <span>אבוקדו 🥑</span>
+                <span>תותים 🍓</span>
+                <span>אגס 🍐</span>
+                <span>תאנים 🫐</span>
+            </div>
+        </div>
+
+        <div class="food-category" data-category="dairy-alternatives">
+            <h5>תחליפי חלב 🥛</h5>
+            <div class="food-items">
+                <span>חלב שקדים 🥛</span>
+                <span>יוגורט סויה 🥄</span>
+                <span>גבינת קשיו 🧀</span>
+                <span>חלב שיבולת שועל 🥛</span>
+            </div>
+        </div>
+
+        <div class="food-category" data-category="nuts-and-seeds">
+            <h5>אגוזים וזרעים 🌰</h5>
+            <div class="food-items">
+                <span>שקדים 🥜</span>
+                <span>זרעי צ'יה 🌱</span>
+                <span>זרעי פשתן 🌱</span>
+                <span>אגוזי מלך 🌰</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="healthy-eating-tips">
+        <h4>טיפים לאכילה בריאה 🌈</h4>
+        <div class="tips-grid">
+            <div class="tip-item">
+                <span class="tip-icon">⏰</span>
+                <h5>זמני ארוחות</h5>
+                <p>חשוב לאכול 3 ארוחות עיקריות ו-2 ארוחות ביניים</p>
+            </div>
+            <div class="tip-item">
+                <span class="tip-icon">🌈</span>
+                <h5>צבעים בצלחת</h5>
+                <p>לאכול מזון במגוון צבעים לקבלת כל הויטמינים</p>
+            </div>
+            <div class="tip-item">
+                <span class="tip-icon">💧</span>
+                <h5>שתייה</h5>
+                <p>לשתות הרבה מים במשך היום</p>
+            </div>
+            <div class="tip-item">
+                <span class="tip-icon">🍬</span>
+                <h5>ממתקים</h5>
+                <p>להגביל אכילת ממתקים וחטיפים</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="meal-examples">
+        <h4>דוגמאות לארוחות צמחוניות בריאות 🍽️</h4>
+        <div class="meals-grid">
+            <div class="meal-item">
+                <h5>ארוחת בוקר 🌅</h5>
+                <ul>
+                    <li>שיבולת שועל עם חלב שקדים 🥣</li>
+                    <li>טחינה על לחם מלא 🥖</li>
+                    <li>סלט ירקות טריים 🥗</li>
+                </ul>
+            </div>
+            <div class="meal-item">
+                <h5>ארוחת צהריים 🌞</h5>
+                <ul>
+                    <li>קציצות קטניות 🫘</li>
+                    <li>אורז מלא עם ירקות 🥗</li>
+                    <li>מרק עדשים 🥣</li>
+                </ul>
+            </div>
+            <div class="meal-item">
+                <h5>ארוחת ערב 🌙</h5>
+                <ul>
+                    <li>טופו מוקפץ 🥢</li>
+                    <li>קינואה עם ירקות 🥗</li>
+                    <li>אבוקדו 🥑</li>
+                </ul>
+            </div>
+            <div class="meal-item">
+                <h5>ארוחות ביניים 🕒</h5>
+                <ul>
+                    <li>פירות טריים 🍎</li>
+                    <li>יוגורט סויה עם גרנולה 🥄</li>
+                    <li>חטיף אנרגיה ביתי 🍪</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="nutrition-tables">
+        <table class="nutrition-table">
+            <caption>תפריט יומי מומלץ 📅</caption>
+            <thead>
+                <tr>
+                    <th>⏰ שעה</th>
+                    <th>🍽️ ארוחה</th>
+                    <th>🥘 מנה מומלצת</th>
+                    <th>📝 הערות</th>
+                    <th>🎯 יעדים תזונתיים</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="meal-time">07:00</td>
+                    <td class="breakfast">ארוחת בוקר 🌅</td>
+                    <td>
+                        <div>🥘 שקשוקת ירקות <button class="recipe-link" data-recipe="שקשוקת ירקות">למתכון 📖</button>
+                        </div>
+                        <div>🥖 לחמניות מקמח מלא <button class="recipe-link" data-recipe="לחמניות מקמח מלא">למתכון
+                                📖</button></div>
+                        <div>🥗 סלט ישראלי <button class="recipe-link" data-recipe="סלט ישראלי">למתכון 📖</button></div>
+                    </td>
+                    <td>ארוחת בוקר עשירה בחלבון צמחי</td>
+                    <td>300-400 קלוריות</td>
+                </tr>
+                <tr>
+                    <td class="meal-time">10:30</td>
+                    <td class="snack">ארוחת ביניים 🕙</td>
+                    <td>
+                        <div>🍪 חטיף אנרגיה <button class="recipe-link" data-recipe="חטיף אנרגיה">למתכון 📖</button>
+                        </div>
+                        <div>🥗 סלט פירות טרופי <button class="recipe-link" data-recipe="סלט פירות טרופי">למתכון
+                                📖</button></div>
+                    </td>
+                    <td>חטיף בריא ומזין</td>
+                    <td>150-200 קלוריות</td>
+                </tr>
+                <tr>
+                    <td class="meal-time">13:00</td>
+                    <td class="lunch">ארוחת צהריים 🌞</td>
+                    <td>
+                        <div>🥘 קדירת קטניות <button class="recipe-link" data-recipe="קדירת קטניות">למתכון 📖</button>
+                        </div>
+                        <div>🥗 סלט קינואה <button class="recipe-link" data-recipe="סלט קינואה">למתכון 📖</button></div>
+                        <div>🥔 תפוחי אדמה אפויים <button class="recipe-link" data-recipe="תפוחי אדמה אפויים">למתכון
+                                📖</button></div>
+                    </td>
+                    <td>ארוחה עשירה בחלבון צמחי</td>
+                    <td>500-600 קלוריות</td>
+                </tr>
+                <tr>
+                    <td class="meal-time">16:00</td>
+                    <td class="snack">ארוחת ביניים 🕒</td>
+                    <td>
+                        <div>🍪 חטיף אנרגיה <button class="recipe-link" data-recipe="חטיף אנרגיה">למתכון 📖</button>
+                        </div>
+                        <div>🫘 ממרח עדשים <button class="recipe-link" data-recipe="ממרח עדשים">למתכון 📖</button></div>
+                    </td>
+                    <td>חטיף בריא ומזין</td>
+                    <td>200-250 קלוריות</td>
+                </tr>
+                <tr>
+                    <td class="meal-time">19:00</td>
+                    <td class="dinner">ארוחת ערב 🌙</td>
+                    <td>
+                        <div>🥗 סלט ישראלי <button class="recipe-link" data-recipe="סלט ישראלי">למתכון 📖</button></div>
+                        <div>🍝 פסטה ברוטב פסטו <button class="recipe-link" data-recipe="פסטה ברוטב פסטו">למתכון
+                                📖</button></div>
+                    </td>
+                    <td>ארוחה קלה לערב</td>
+                    <td>400-450 קלוריות</td>
+                </tr>
+                <tr>
+                    <td class="meal-time">21:00</td>
+                    <td class="snack">נשנוש לילה 🌛</td>
+                    <td>
+                        <div>🫐 פירות יער</div>
+                        <div>🥛 כוס חלב חם</div>
+                    </td>
+                    <td>נשנוש קל לפני שינה</td>
+                    <td>100-150 קלוריות</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="nutrition-table">
+            <caption>תפריט שבועי מומלץ</caption>
+            <thead>
+                <tr>
+                    <th>📆 יום</th>
+                    <th>🌅 ארוחת בוקר</th>
+                    <th>🌞 ארוחת צהריים</th>
+                    <th>🌙 ארוחת ערב</th>
+                    <th>💪 פעילות גופנית</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="meal-time">ראשון</td>
+                    <td class="breakfast">
+                        <div>🥘 שקשוקת ירקות <button class="recipe-link" data-recipe="שקשוקת ירקות">למתכון 📖</button>
+                        </div>
+                        <div>🥗 סלט ישראלי <button class="recipe-link" data-recipe="סלט ישראלי">למתכון 📖</button></div>
+                    </td>
+                    <td class="lunch">
+                        <div>🥘 קדירת קטניות <button class="recipe-link" data-recipe="קדירת קטניות">למתכון 📖</button>
+                        </div>
+                        <div>🥗 סלט קינואה <button class="recipe-link" data-recipe="סלט קינואה">למתכון 📖</button></div>
+                    </td>
+                    <td class="dinner">
+                        <div>🍝 פסטה ברוטב פסטו <button class="recipe-link" data-recipe="פסטה ברוטב פסטו">למתכון
+                                📖</button></div>
+                        <div>🥗 סלט ישראלי <button class="recipe-link" data-recipe="סלט ישראלי">למתכון 📖</button></div>
+                    </td>
+                    <td>🏃‍♂️ הליכה 30 דקות</td>
+                </tr>
+                <tr>
+                    <td class="meal-time">שני</td>
+                    <td class="breakfast">
+                        <div>🧇 לביבות תירס <button class="recipe-link" data-recipe="לביבות תירס">למתכון 📖</button>
+                        </div>
+                        <div>🥗 סלט ירקות טריים</div>
+                    </td>
+                    <td class="lunch">
+                        <div>🍔 המבורגר פטריות <button class="recipe-link" data-recipe="המבורגר פטריות">למתכון
+                                📖</button></div>
+                        <div>🥗 סלט ירוק</div>
+                    </td>
+                    <td class="dinner">
+                        <div>🥘 קארי ירקות <button class="recipe-link" data-recipe="קארי ירקות">למתכון 📖</button></div>
+                        <div>🍚 אורז מלא</div>
+                    </td>
+                    <td>🏋️‍♀️ אימון כוח</td>
+                </tr>
+                <tr>
+                    <td class="meal-time">שלישי</td>
+                    <td class="breakfast">
+                        <div>🥪 כריך מלחם מלא <button class="recipe-link" data-recipe="לחמניות מקמח מלא">למתכון
+                                📖</button></div>
+                        <div>🥑 אבוקדו וטחינה</div>
+                        <div>🥒 ירקות חתוכים</div>
+                    </td>
+                    <td class="lunch">
+                        <div>🫘 קציצות קטניות <button class="recipe-link" data-recipe="קציצות קטניות">למתכון 📖</button>
+                        </div>
+                        <div>🥔 תפוחי אדמה אפויים <button class="recipe-link" data-recipe="תפוחי אדמה אפויים">למתכון
+                                📖</button></div>
+                        <div>🥬 סלט עלים</div>
+                    </td>
+                    <td class="dinner">
+                        <div>🥗 סלט ישראלי גדול <button class="recipe-link" data-recipe="סלט ישראלי גדול">למתכון
+                                📖</button></div>
+                        <div>🫘 ממרח עדשים <button class="recipe-link" data-recipe="ממרח עדשים">למתכון 📖</button></div>
+                    </td>
+                    <td>🧘‍♀️ יוגה 45 דקות</td>
+                </tr>
+                <tr>
+                    <td class="meal-time">רביעי</td>
+                    <td class="breakfast">
+                        <div>🥄 יוגורט סויה עם גרנולה</div>
+                        <div>🍯 סילאן</div>
+                        <div>🫐 פירות יער טריים</div>
+                    </td>
+                    <td class="lunch">
+                        <div>🍆 חציל ממולא קינואה <button class="recipe-link" data-recipe="חציל ממולא קינואה">למתכון
+                                📖</button></div>
+                        <div>🍚 אורז עם ירקות <button class="recipe-link" data-recipe="אורז עם ירקות">למתכון 📖</button>
+                        </div>
+                        <div>🥦 ירקות מאודים</div>
+                    </td>
+                    <td class="dinner">
+                        <div>🫘 ממרח עדשים <button class="recipe-link" data-recipe="ממרח עדשים">למתכון 📖</button></div>
+                        <div>🥗 סלט ישראלי גדול <button class="recipe-link" data-recipe="סלט ישראלי גדול">למתכון
+                                📖</button></div>
+                        <div>🥑 אבוקדו</div>
+                    </td>
+                    <td>🚴‍♀️ אופניים 40 דקות</td>
+                </tr>
+                <tr>
+                    <td class="meal-time">חמישי</td>
+                    <td class="breakfast">
+                        <div>🥞 פנקייק שיבולת שועל</div>
+                        <div>🍓 תותים טריים</div>
+                        <div>🥜 חמאת בוטנים</div>
+                    </td>
+                    <td class="lunch">
+                        <div>🍔 המבורגר פטריות <button class="recipe-link" data-recipe="המבורגר פטריות">למתכון
+                                📖</button></div>
+                        <div>🥗 סלט קינואה <button class="recipe-link" data-recipe="סלט קינואה">למתכון 📖</button></div>
+                        <div>🥒 ירקות טריים</div>
+                    </td>
+                    <td class="dinner">
+                        <div>🥗 סלט ישראלי גדול <button class="recipe-link" data-recipe="סלט ישראלי גדול">למתכון
+                                📖</button></div>
+                        <div>🥬 חסה</div>
+                        <div>🥖 לחמניות מקמח מלא <button class="recipe-link" data-recipe="לחמניות מקמח מלא">למתכון
+                                📖</button></div>
+                    </td>
+                    <td>💪 אימון התנגדות</td>
+                </tr>
+                <tr class="weekend">
+                    <td class="meal-time">שישי</td>
+                    <td class="breakfast">
+                        <div>🥖 חלה</div>
+                        <div>🍄 פטריות מוקפצות</div>
+                        <div>🥗 סלט ישראלי גדול <button class="recipe-link" data-recipe="סלט ישראלי גדול">למתכון
+                                📖</button></div>
+                    </td>
+                    <td class="lunch">
+                        <div>🌱 קציצות קטניות <button class="recipe-link" data-recipe="קציצות קטניות">למתכון 📖</button>
+                        </div>
+                        <div>🥘 אורז עם ירקות <button class="recipe-link" data-recipe="אורז עם ירקות">למתכון 📖</button>
+                        </div>
+                        <div>🥬 סלט ירוק</div>
+                    </td>
+                    <td class="dinner">
+                        <div>🥣 מרק ירקות חם</div>
+                        <div>🥖 לחמניות מקמח מלא <button class="recipe-link" data-recipe="לחמניות מקמח מלא">למתכון
+                                📖</button></div>
+                        <div>🥜 ממרח עדשים <button class="recipe-link" data-recipe="ממרח עדשים">למתכון 📖</button></div>
+                    </td>
+                    <td>🚶‍♀️ הליכה משפחתית</td>
+                </tr>
+                <tr class="weekend">
+                    <td class="meal-time">שבת</td>
+                    <td class="breakfast">
+                        <div>🥐 מאפים צמחוניים</div>
+                        <div>🥘 שקשוקת ירקות <button class="recipe-link" data-recipe="שקשוקת ירקות">למתכון 📖</button>
+                        </div>
+                        <div>🥗 סלט ישראלי גדול <button class="recipe-link" data-recipe="סלט ישראלי גדול">למתכון
+                                📖</button></div>
+                    </td>
+                    <td class="lunch">
+                        <div>🫘 קדירת קטניות <button class="recipe-link" data-recipe="קדירת קטניות">למתכון 📖</button>
+                        </div>
+                        <div>🥔 תפוחי אדמה אפויים <button class="recipe-link" data-recipe="תפוחי אדמה אפויים">למתכון
+                                📖</button></div>
+                        <div>🥗 סלט ישראלי גדול <button class="recipe-link" data-recipe="סלט ישראלי גדול">למתכון
+                                📖</button></div>
+                    </td>
+                    <td class="dinner">
+                        <div>🥙 פיתה</div>
+                        <div>🥘 אורז עם ירקות <button class="recipe-link" data-recipe="אורז עם ירקות">למתכון 📖</button>
+                        </div>
+                        <div>🥗 סלט ישראלי גדול <button class="recipe-link" data-recipe="סלט ישראלי גדול">למתכון
+                                📖</button></div>
+                    </td>
+                    <td>🌳 טיול משפחתי</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="nutrition-table">
+            <caption>תפריט חודשי - דגשים לפי שבוע 📅</caption>
+            <thead>
+                <tr>
+                    <th>📅 שבוע</th>
+                    <th>🎯 דגשים תזונתיים</th>
+                    <th>🥗 מזונות מומלצים</th>
+                    <th>💡 טיפים</th>
+                    <th>🏆 יעדים שבועיים</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="meal-time">שבוע 1</td>
+                    <td>
+                        <div>🌱 חלבון צמחי</div>
+                        <div>💪 תזונה מאוזנת</div>
+                    </td>
+                    <td>
+                        <div>🥘 קדירת קטניות <button class="recipe-link" data-recipe="קדירת קטניות">למתכון 📖</button>
+                        </div>
+                        <div>🍔 המבורגר פטריות <button class="recipe-link" data-recipe="המבורגר פטריות">למתכון
+                                📖</button></div>
+                        <div>🥗 סלט קינואה <button class="recipe-link" data-recipe="סלט קינואה">למתכון 📖</button></div>
+                    </td>
+                    <td>להקפיד על מגוון מקורות חלבון צמחי</td>
+                    <td>
+                        <div>✅ 3 מנות קטניות ביום</div>
+                        <div>✅ מגוון ירקות בכל ארוחה</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="meal-time">שבוע 2</td>
+                    <td>
+                        <div>🥬 דגש על ירקות</div>
+                        <div>🌿 ויטמינים ומינרלים</div>
+                    </td>
+                    <td>
+                        <div>🥘 קארי ירקות <button class="recipe-link" data-recipe="קארי ירקות">למתכון 📖</button></div>
+                        <div>🥗 סלט קינואה <button class="recipe-link" data-recipe="סלט קינואה">למתכון 📖</button></div>
+                        <div>🍝 פסטה ברוטב פסטו <button class="recipe-link" data-recipe="פסטה ברוטב פסטו">למתכון
+                                📖</button></div>
+                    </td>
+                    <td>לגוון בצבעי הירקות</td>
+                    <td>
+                        <div>✅ 5 מנות ירק ביום</div>
+                        <div>✅ סלט בכל ארוחה</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="meal-time">שבוע 3</td>
+                    <td>
+                        <div>🌾 דגש על דגנים מלאים</div>
+                        <div>🍚 פחמימות מורכבות</div>
+                    </td>
+                    <td>
+                        <div>🍆 חציל ממולא קינואה <button class="recipe-link" data-recipe="חציל ממולא קינואה">למתכון
+                                📖</button></div>
+                        <div>🫘 קציצות קטניות <button class="recipe-link" data-recipe="קציצות קטניות">למתכון 📖</button>
+                        </div>
+                        <div>🫘 ממרח עדשים <button class="recipe-link" data-recipe="ממרח עדשים">למתכון 📖</button></div>
+                    </td>
+                    <td>להעדיף דגנים מלאים על פני מעובדים</td>
+                    <td>
+                        <div>✅ החלפת כל הלחם ללחם מלא</div>
+                        <div>✅ 2-3 מנות דגנים ביום</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="meal-time">שבוע 4</td>
+                    <td>
+                        <div>🥑 דגש על שומנים בריאים</div>
+                        <div>🫒 אומגה 3 ו-6</div>
+                    </td>
+                    <td>
+                        <div>🥑 אבוקדו</div>
+                        <div>🫒 שמן זית</div>
+                        <div>🥜 אגוזים ושקדים</div>
+                        <div>🐟 דגים שמנים</div>
+                    </td>
+                    <td>לשל שומנים ביאים במתינות</td>
+                    <td>
+                        <div>✅ 2 מנות דג בשבוע</div>
+                        <div>✅ חופן אגוזים ביום</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="meal-time">שבוע 5</td>
+                    <td>
+                        <div>💧 דגש על הידרציה</div>
+                        <div>🥤 שתייה מספקת</div>
+                    </td>
+                    <td>
+                        <div>💧 מים</div>
+                        <div>🫖 תה ירוק</div>
+                        <div>🥤 מיץ טבעי</div>
+                        <div>🥥 מי קוקוס</div>
+                    </td>
+                    <td>להקפיד על שתייה מרובה לאורך היום</td>
+                    <td>
+                        <div>✅ 8-10 כוסות מים ביום</div>
+                        <div>✅ הפחתת משקאות ממותקים</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+<!-- Recipe Modal -->
+<div id="recipe-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="recipe-details-content"></div>
+    </div>
+</div>
+
+<!-- Add these script tags before the closing body tag -->
+<script src="recipes.json" type="application/json"></script>
+<script src="scripts.js"></script>
